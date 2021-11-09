@@ -1,1 +1,12 @@
-gyg
+1)qu est ce qu’on a fait ?
+aujourd’hui on va  voir le git/githup et la différance entre eux , et vois les types  de commandes et leurs rôle
+2)qu’est ce qu’on a appris a travers ce qu’on a fait ?
+Git : outil de gestion de version (local pc)
+Github : est une plateforme en ligne qui permet, entre autre, d'héberger des dépôts Git.
+ Les types de commandes et leurs rôles :
+Git config , Git init , Git add , Clone git, Git commit
+Git status, Git push , Git remote ,Git log
+3) comment on va utiliser ce qu’on a appris dans un contexte réel ?
+Git et github est un système qui permet de suivre les changement dans le code dans les petit projet et les grands projet de façon rapide et efficace 
+O a le besoin des commandes pour contrôler le terminal de git et entrer les fonction de ce que nous voulons faire 
+
