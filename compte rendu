@@ -1,2 +1,13 @@
-jhbh
-uuu
+Git : outil de gestion de version (local pc)
+Github : est une plateforme en ligne qui permet, entre autre, d'héberger des dépôts Git.
+ Les types de commandes et leurs rôles :
+	Git config : configurer les préférences de l’utilisateur (username,email..)
+	Git init : créer un nouveau dépôt GIT 
+	Git add :  ajouter des fichiers à l’index
+	Clone git : vérification des dépôts
+	Git commit : valider les modifications apportées au HEAD
+	Git status : affiche la liste des fichiers modifiés ainsi que les fichiers qui doivent encore être ajoutés ou validés
+	Git push : envoie les modifications locales apportées à la branche principale associée
+	Git remote : permet à un utilisateur de se connecter à un dépôt distant
+	Git log : génère le log d’une branche
+
