@@ -10,10 +10,11 @@ Git : outil de gestion de version (local pc)
 Github : est une plateforme en ligne qui permet, entre autre, d'héberger des dépôts Git.
  Les types de commandes et leurs rôles :
 Git config , Git init , Git add , Clone git, Git commit
-Git status, Git push , Git remote ,Git log
+Git status, Git push , Git remote ,Git log.
 3) comment on va utiliser ce qu’on a appris dans un contexte réel ?
 Git et github est un système qui permet de suivre les changement dans le code dans les petit projet et les grands projet de façon rapide et efficace 
-O a le besoin des commandes pour contrôler le terminal de git et entrer les fonction de ce que nous voulons faire 
+O a le besoin des commandes pour contrôler le terminal de git et entrer les fonction de ce que nous voulons faire.
+
 LE 10/11/2021
 aujord'huit en a faire un petit controle (QUIZ) pour evaluer notre compétence au niveau de programation language c,et git/github et apres on a etuder les variable du language c 
 c est devlopper comme unix par dennis ritchie 
@@ -22,12 +23,15 @@ les avantage de language c
 - multi-platforme.
 - executer rapid.
 est aussi c est un language compuler.
+
 le 11/11/2021
 d'aujourd'hui on a fait  un defit qu'il contien 13 exercices au niveau de language C le but de ce travail pour comprendre  comment utiliser les variable les typs de variable
 et aussi le role de la fonction printf:pour afficher un message ,scanf:pour entrer les information,pour moi c est un meilleur manier pour devlopper votre compétence et apres travailler en grope danse la platforme "discore" poure resordre le probleme
 de ce defis
+
 le 12/11/2021
-d'aujourdhui on a travailler sur un tchallenge il contien 9exercice different(condition ) et apres-midi on a fait un live coding entr nous sur les variable.
+d'aujourdhui on a travailler sur un tchallenge il contien 9 exercice different(condition ) et apres-midi on a fait un live coding entr nous sur les variable.il ya eu une longuediscussion pour
+connaitre nos erreurs et améliorer nos niveux ,c'est pour aujourd'hui.
 
 
 
