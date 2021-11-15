@@ -1,3 +1,4 @@
 le15/11/2021:
-aujourd'hui j'ai essaye de terminer ma exercice que ma donner le prof "MR youssef ouadid " ce l'objectif de ce travaile pour moi ,j'ai compris comment travailler sur les switche et aussi maitrisé nouvelle compétence ,chercher les sollution malgré les difficulées
-jai essayé pour chaque fois ,merci beaucoup mr ouadid our les conseils et apés midi jai ouvert une page sur youtube pour compendre programme algorithme .
+aujourd'hui j'ai essaye de terminer ma exercice que ma donner le prof "MR youssef ouadid " ce l'objectif de ce travaile pour moi
+et j'ai compris comment travailler sur les switche, et aussi maitrisé nouvelle compétence ,chercher les sollution malgré les difficulées.
+jai essayé pour chaque fois pour resoudre le problem  ,merci beaucoup mr ouadid pour les conseils et apés midi nous avon fait un quiz sur language C (condition ,git&github).
