@@ -1,6 +1,8 @@
-le15/11/2021:
+﻿le15/11/2021:
 aujourd'hui j'ai essaye de terminer ma exercice que vous avez me donner , l'objectif de ce travaile pour moi
 et de comprire comment travailler sur les switche, et aussi maitrisé des nouveaux compétences ,chercher les sollutions malgré les difficultees.
 jai essayé à chaque fois de resoudre le probleme  ,merci beaucoup mr ouadid pour les conseils et aprés midi nous avons fait un quiz sur language C (condition ,git&github).
 le 16/11/2021:
 aujourd'hui on a faire un live coding sur les variables avec mon camarad de mon groupe et je suis satisfait pour acquérir des noveaux choses , aussi le groupe "brogrammers" l a  fait une meilleur presentation sur algorithme qui est bien expliqué et  detaillé.
+le 17/11/2021
+aujourd'huinous avon travaillé sur un noveau defi au niveau de boucle franchement jai racontré des dificultes ,grace le prof 'youssef wadid' pour l explication et la simplification du cours c set un defit pour moi de connaitre les choses et devlopper les competence .
