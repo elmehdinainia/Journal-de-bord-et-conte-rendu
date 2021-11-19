@@ -6,3 +6,5 @@ le 16/11/2021:
 aujourd'hui on a faire un live coding sur les variables avec mon camarad de mon groupe et je suis satisfait pour acquérir des noveaux choses , aussi le groupe "brogrammers" l a  fait une meilleur presentation sur algorithme qui est bien expliqué et  detaillé.
 le 17/11/2021
 aujourd'huinous avon travaillé sur un noveau defi au niveau de boucle franchement jai racontré des dificultes ,grace le prof 'youssef wadid' pour l explication et la simplification du cours c set un defit pour moi de connaitre les choses et devlopper les competence .
+19/11/2021
+aujourd'hui  j'ai continu le challenge sur les boucle et le fonction , j'ai eu du mal à comprendre certaines chose au niveau de exercice2 piramid mais avec live coding de mon camarade abdsamad pour l'explication pour comprend l'exercice.
