@@ -14,4 +14,4 @@ aujourd'huinous avon travaillé sur un noveau defi au niveau de boucle francheme
 19/11/2021
 aujourd'hui  j'ai continu le challenge sur les boucle et le fonction , j'ai eu du mal à comprendre certaines chose au niveau de exercice2 piramid mais avec live coding de mon camarade abdsamad pour l'explication pour comprend l'exercice.
 21/11/2021
-aujord'hui on a faire un quiz au niveau de fonction,boucle,les condition , et apres le quiz jai continu mon projet ,il ya des blokage ,malgré ca jai essayé de comprend ca sur google ,avec des ami de classe c est ca pour ajourdhui.
+aujord'hui on a faire un quiz au niveau du fonction,boucle,les condition , et apres le quiz jai continu mon projet ,il ya des blokage ,malgré ca jai essayé de comprend ca sur google ,avec des ami de classe c est ca pour ajourdhui.
