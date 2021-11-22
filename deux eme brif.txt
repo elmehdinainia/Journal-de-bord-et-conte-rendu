@@ -1,0 +1,82 @@
+#include <stdio.h>
+typedef struct {
+    char CIN [10];
+    char Nom[10] ;
+    char Prenom[10] ;
+    int Montant ;
+} Compte ;
+
+void Introduire_compte(){
+    Compte client;
+    printf("taper votre cin :");
+    scanf("%s",client.CIN);
+    printf("taper votre nom :");
+    scanf("%s",client.Nom);
+    printf("taper votre prenom :");
+    scanf("%s",client.Prenom);
+    printf("taper votre montant :");
+    scanf("%d",&client.Montant);
+    printf("CIN: %s  Nom: %s Prenom: %s Montant: %d DH",client.CIN,client.Nom,client.Prenom,client.Montant);
+}
+void plusieurs_compte (){
+    int n,i ;
+    printf("entrer le nombre de compte que vous voulez creer :");
+    scanf("%d",&n);
+    Compte multiple[n];
+    for(i=0;i<n;i++){
+        
+        printf("\ntaper votre cin :");
+        scanf("%s",multiple[i].CIN);
+        printf("\ntaper votre nom :");
+        scanf("%s",multiple[i].Nom);
+        printf("\ntaper votre prenom :");
+        scanf("%s",multiple[i].Prenom);
+        printf("\ntaper votre montant :");
+        scanf("%d",&multiple[i].Montant);
+    
+    }
+    for(i=0;i<n;i++)
+           printf("\n CIN: %s  Nom: %s Prenom: %s Montant: %d DH",multiple[i].CIN,multiple[i].Nom,multiple[i].Prenom,multiple[i].Montant);
+}
+
+int main()
+{
+    int c ;
+    int choix;
+printf(">>>>>>>>>>>>>>  Gestion Bancaire  <<<<<<<<<<<<<<<");
+printf("\n 1 : Introduire un compte bancaire") ;
+printf("\n 2 : Introduire plusieurs comptes bancaires") ;
+printf("\n 3 : Opérations (Retrait ,Dépôt)") ;
+printf("\n 4 : Affichage") ;
+printf("\n 5 : Fidélisation") ;
+printf("\n 6 : Quitter ") ;
+
+printf("\n Entrer un caractère :") ;
+scanf("%d",&c);
+switch (c) {
+case 1 : Introduire_compte() ;
+break;
+case 2 : plusieurs_compte () ;
+break;
+case 3 : printf("1 : Retrait");
+           printf("\n2 : Dépôt ");
+           printf("\n entrer votre choix :");
+           scanf("%d",&choix);
+   if (choix==1){
+           printf("Retrait");
+           }
+   else if(choix==2){
+           printf("dépôt");    
+           }
+   else 
+           printf("le caractère entrer est incorrect");   
+break;
+case 4 : 
+break;
+case 5 : ;
+break;
+default : ;
+break;
+}
+    return 0;
+}
