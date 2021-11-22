@@ -1,0 +1,50 @@
+#include<stdio.h>
+#include<stdlib.h>
+typedef struct Bancaire{
+    char CIN[20];
+    char Nome[20];
+    char Prenome[20];
+    float Montant[20];
+    
+}Bancaire;
+
+
+int main() {
+
+int choix;
+do {	
+    printf(" \n            Gestion Bancaire            \n");
+    printf(" 1 : Introduire un compte bancaire \n") ;
+    printf(" 2 : Introduire plusieurs comptes bancaires\n") ;
+    printf(" 3 : operation (Retrait ,Dépôt) \n") ;
+    printf(" 4: Affichage \n") ;
+    printf(" 5 : Fidelisation \n") ;
+    printf(" 0 : Quitter \n ") ;
+    printf("\n Entrer un caractere " );
+    scanf("%d",&choix);
+    switch(choix){
+    case 1:
+     printf("introduire un comptz bancaireAAAAAAA");
+      break;
+     case 2:printf("introduire plusieurs compte bancaire");
+      break;
+      case 3:
+     printf("retrait / depot");
+      break;
+      case 4:
+     printf("Affichage");
+      break;
+      case 5:
+      printf("Fidelisation");
+      break;
+      default:
+      printf("quitter");
+    }
+    	
+    	
+    }while(choix != 0);
+        
+    return 0 ;
+}
+
+
