@@ -1,29 +1,37 @@
 #include <stdio.h>
+//fstructure contient cin,nome,prenom,montant
 typedef struct {
     char CIN [10];
     char Nom[10] ;
     char Prenom[10] ;
     int Montant ;
 } Compte ;
-
-void Introduire_compte(){
-    Compte client;
+//creer un tableau
+ Compte multiple[50];
+ Compte tableau_client[4] = { {"HA22291","el mehdi","nainia"2000,},
+ 							{"HA22567","said","fatih",1000},
+ 							{"HA11992","mourad","nadir",3000},
+ 							{"HA29351","farid","rafini",5000},
+ 							};
+//fonction de creer un seul compte
+void creer_compte(){
     printf("taper votre cin :");
-    scanf("%s",client.CIN);
+    scanf("%s",multiple[0].CIN);
     printf("taper votre nom :");
-    scanf("%s",client.Nom);
+    scanf("%s",multiple[0].Nom);
     printf("taper votre prenom :");
-    scanf("%s",client.Prenom);
+    scanf("%s",multiple[0].Prenom);
     printf("taper votre montant :");
-    scanf("%d",&client.Montant);
-    printf("CIN: %s  Nom: %s Prenom: %s Montant: %d DH",client.CIN,client.Nom,client.Prenom,client.Montant);
+    scanf("%d",&multiple[0].Montant);
+    printf("CIN: %s  Nom: %s Prenom: %s Montant: %d DH",multiple[0].CIN,multiple[0].Nom,multiple[0].Prenom,multiple[0].Montant);
 }
-void plusieurs_compte (){
-    int n,i ;
+//cette fonction qui creer plusieurs compts
+void plus_compte (){
+    int nbr,i ;
     printf("entrer le nombre de compte que vous voulez creer :");
-    scanf("%d",&n);
-    Compte multiple[n];
-    for(i=0;i<n;i++){
+    scanf("%d",&nbr);
+   //repitition des compts
+    for(i=0;i<nbr;i++){
         
         printf("\ntaper votre cin :");
         scanf("%s",multiple[i].CIN);
@@ -35,7 +43,7 @@ void plusieurs_compte (){
         scanf("%d",&multiple[i].Montant);
     
     }
-    for(i=0;i<n;i++)
+    for(i=0;i<nbr;i++)
            printf("\n CIN: %s  Nom: %s Prenom: %s Montant: %d DH",multiple[i].CIN,multiple[i].Nom,multiple[i].Prenom,multiple[i].Montant);
 }
 
@@ -43,32 +51,25 @@ int main()
 {
     int c ;
     int choix;
-printf(">>>>>>>>>>>>>>  Gestion Bancaire  <<<<<<<<<<<<<<<");
+    do{
+	
+printf("\n>>>>>>>>>>>>>>  WAFA CASH  <<<<<<<<<<<<<<<");
 printf("\n 1 : Introduire un compte bancaire") ;
 printf("\n 2 : Introduire plusieurs comptes bancaires") ;
-printf("\n 3 : Opérations (Retrait ,Dépôt)") ;
+printf("\n 3 : Operations (Retrait ,Depot)") ;
 printf("\n 4 : Affichage") ;
 printf("\n 5 : Fidélisation") ;
-printf("\n 6 : Quitter ") ;
+printf("\n 0 : Quitter ") ;
 
-printf("\n Entrer un caractère :") ;
+printf("\n Entrer votre choix :\t") ;
 scanf("%d",&c);
 switch (c) {
-case 1 : Introduire_compte() ;
+case 1 : creer_compte() ;
 break;
-case 2 : plusieurs_compte () ;
+case 2 : plus_compte () ;
 break;
 case 3 : printf("1 : Retrait");
-           printf("\n2 : Dépôt ");
-           printf("\n entrer votre choix :");
-           scanf("%d",&choix);
-   if (choix==1){
-           printf("Retrait");
-           }
-   else if(choix==2){
-           printf("dépôt");    
-           }
-   else 
+          
            printf("le caractère entrer est incorrect");   
 break;
 case 4 : 
@@ -78,5 +79,6 @@ break;
 default : ;
 break;
 }
+}while(c!=0);
     return 0;
 }
