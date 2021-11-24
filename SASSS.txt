@@ -1,0 +1,169 @@
+#include <stdio.h>
+#include <string.h>
+typedef struct {
+    char CIN [10];
+    char Nom[10] ;
+    char Prenom[10] ;
+    int Montant ;
+} Compte ;
+Compte clients[10];
+
+int i;
+
+void Introduire_compte(){  
+    printf("taper votre cin :");
+    scanf("%s",clients[i].CIN); 
+    printf("taper votre nom :");
+    scanf("%s",clients[i].Nom);
+    printf("taper votre prenom :");
+    scanf("%s",clients[i].Prenom);
+    printf("taper votre montant :");
+    scanf("%d",&clients[i].Montant);
+    printf("CIN: %s Nom: %s Prenom: %s Montant: %d DH\n",clients[i].CIN,clients[i].Nom,clients[i].Prenom,clients[i].Montant);
+    i++;
+}
+void plusieurs_compte (){
+    int n,j;
+    printf("entrer le nombre de compte que vous voulez creer :");
+    scanf("%d",&n);
+    for(j=0;j<n;j++){
+        Introduire_compte();
+    }
+}
+void depot(){
+    char cin[10];
+    int j, mtn;
+    printf("\n entrer votre cin :");
+    scanf("%s",cin);
+    printf("\n entrer le montant a deposer :");
+    scanf("%d",&mtn);
+
+    for(int i=0;i<10;i++)
+    {
+        if(strcmp(clients[i].CIN,cin)==0){
+            clients[i].Montant = clients[i].Montant + mtn;
+        printf("CIN: %s Nom: %s Prenom: %s Montant: %d DH\n",clients[i].CIN,clients[i].Nom,clients[i].Prenom,clients[i].Montant);
+        break;
+        }
+    }
+
+}
+
+void retrait(){
+    char cin[10];
+    int j, mtn;
+    printf("\n entrer votre cin :");
+    scanf("%s",cin);
+    printf("\n entrer le montant a deposer :");
+    scanf("%d",&mtn);
+
+    for(int i=0;i<10;i++)
+    {
+        if(strcmp(clients[i].CIN,cin)==0){
+            clients[i].Montant = clients[i].Montant - mtn;
+        printf("CIN: %s Nom: %s Prenom: %s Montant: %d DH\n",clients[i].CIN,clients[i].Nom,clients[i].Prenom,clients[i].Montant);
+        break;
+        }
+    }
+
+}
+
+
+
+
+
+
+void rechercher()
+{
+    char cin[10];
+    printf("donne cin ");
+    scanf("%s",cin);
+    for(int i=0;i<10;i++)
+    {
+        if(strcmp(clients[i].CIN,cin)==0){
+            printf("CIN: %s Nom: %s Prenom: %s Montant: %d DH\n",clients[i].CIN,clients[i].Nom,clients[i].Prenom,clients[i].Montant);
+            break;
+        }
+    }
+}
+
+
+
+int main()
+{
+    // strcpy(clients[0].CIN , "aa");
+    // strcpy(clients[1].CIN , "bb");
+    // strcpy(clients[2].CIN , "bb");
+    // strcpy(clients[0].Prenom , "aa");
+    // strcpy(clients[1].Prenom , "bb");
+    // strcpy(clients[2].Prenom , "bb");
+    // strcpy(clients[0].Nom , "aa");
+    // strcpy(clients[1].Nom , "bb");
+    // strcpy(clients[2].Nom , "bb");
+    // clients[0].Montant = 1;
+    // clients[1].Montant = 0;
+    // clients[2].Montant = 10;
+
+
+    int c ;
+    int choix;
+    int choisir;
+    int i;
+    i = 0;
+    do{
+printf(">>>>>>>>>>>>>> Gestion Bancaire <<<<<<<<<<<<<<<");
+printf("\n 1 : Introduire un compte bancaire") ;
+printf("\n 2 : Introduire plusieurs comptes bancaires") ;
+printf("\n 3 : Opérations (Retrait ,Dépôt)") ;
+printf("\n 4 : Affichage") ;
+printf("\n 5 : Fidélisation") ;
+printf("\n 6 : Quitter ") ;
+ 
+printf("\n Entrer un caractère :") ;
+scanf("%d",&c);
+switch (c) {
+case 1 : Introduire_compte();
+break;
+case 2 : plusieurs_compte () ;
+break;
+case 3 : printf("1 : Retrait");
+           printf("\n2 : Dépôt ");
+           printf("\n entrer votre choix :");
+           scanf("%d",&choix);
+   if (choix==1){
+           printf("Retrait");
+           retrait();
+           }
+   else if(choix==2){
+           printf("dépôt");
+           depot();
+           }
+   else
+           printf("le caractère entrer est incorrect");
+break;
+
+case 4 : printf("1-Par Ordre Ascendant\n");
+         printf("2-Par Ordre Descendant\n");
+         printf("3-Par Ordre Ascendant (les comptes)\n");
+         printf("4-Par Ordre Descendant (les comptes)\n");
+         printf("5-Recherche par CIN\n");
+         scanf("%d",&choisir);
+         if (choisir == 1)
+
+        if (choisir == 2)
+            
+        if (choisir == 3)
+            
+        if (choisir == 4)
+            
+        if(choisir == 5)
+            rechercher();
+break;
+case 5 : 
+break;
+default : ;
+break;
+}
+}while(c>0 && c < 6);
+    return 0;
+}
