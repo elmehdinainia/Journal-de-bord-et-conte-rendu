@@ -1,3 +1,11 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
 #include <stdio.h>
 #include <string.h>
 typedef struct {
@@ -8,8 +16,8 @@ typedef struct {
 } Compte ;
 Compte clients[10];
 
-int i;
-i=0;
+int i=0;
+
 
 void seul_compte(){  
     printf("taper votre cin :");
@@ -82,6 +90,12 @@ void rechercher()
         }
     }
 }
+void Affichage()
+{
+    for (int i=0;i<10;i++){
+            printf("CIN: %s Nom: %s Prenom: %s Montant: %d DH\n",clients[i].CIN,clients[i].Nom,clients[i].Prenom,clients[i].Montant);
+    }
+}
 
 
 
@@ -98,7 +112,7 @@ printf("\n 1 : creer un compte bancaire") ;
 printf("\n 2 : creer plusieurs comptes bancaires") ;
 printf("\n 3 : Opérations (Retrait ,Dépôt)") ;
 printf("\n 4 : rechercher par CIN") ;
-printf("\n 5 : Fidélisation") ;
+printf("\n 5 : Affichage") ;
 printf("\n 6 : Quitter ") ;
  
 printf("\n Entrer un caractère :") ;
@@ -126,8 +140,9 @@ break;
 
 case 4 :  rechercher();
 break;
-case 5 : 
+case 5 : Affichage();
 break;
+
 default : ;
 break;
 }
