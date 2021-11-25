@@ -91,9 +91,9 @@ void rechercher()
     }
 }
 void Affichage()
-{
-    for (int i=0;i<10;i++){
-            printf("CIN: %s Nom: %s Prenom: %s Montant: %d DH\n",clients[i].CIN,clients[i].Nom,clients[i].Prenom,clients[i].Montant);
+{ int z;
+    for (int z=0;z<i;z++){
+            printf("CIN: %s Nom: %s Prenom: %s Montant: %d DH\n",clients[z].CIN,clients[z].Nom,clients[z].Prenom,clients[z].Montant);
     }
 }
 
