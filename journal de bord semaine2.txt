@@ -32,3 +32,6 @@ et aussi fonction de moteur de recherche  retrouver les page vous visite parmi m
  aujourd'hui on fait un (stand up meting) un petit rappel  sur leur travaile de chaque persone de group , html,css,et apres chaque goupe travailler sur leur brif 
  et apres midi on faire un quizez sur web,github,html,css,histoire de internet,et apres on  a faire la correction de quiz.jai appris les balises en  de html et aussi la fonction de chaque 
 balise en peut utiliser pour creer un petit site web.
+06/12/2021:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+aujourd'hui on a fait stand up meting just un petit rappel de semain au niveau de html et css , aujourd'hui jai fait un petit documentation sur margin et paddin ,jai connu la diference
+les deux ,et pares midi on a fait un quiz sur html il me rest des point a reviser
