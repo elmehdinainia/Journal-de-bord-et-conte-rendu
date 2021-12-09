@@ -39,4 +39,6 @@ les deux ,et pares midi on a fait un quiz sur html il me rest des point a revise
 20 min ,le but de ce activiter ameliorer votre niveau ,parler sans stresse ,decouvrir les point faibe ,pour moi c set un bonne seance .
 08/12/2021:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 aujord'hui on fait un stand up meting au niveau de travaile sur chaque group ,et apres j'ai commencé pour finir  mon projet "responsive" jai comprond les diference entre les display voila 
-et apres jai fait un presentation sur accebiliter pour finir le projet
+et apres jai fait un presentation sur accebiliter pour finir le projet.
+22/35/2021:aujourd'hui on a fait un stand up meting pour conaitre niveau de cha squad sur votre projet ,aujourd'hui j'ai essayer pour fini mon projet sur designe et appliquer sur html et css avec responsive
+pour moi il ya des point faible et apres jai fait un petit documentaire pour comprende les point.
